@@ -12,7 +12,7 @@ This repository provides a detailed framework for mobile robotics, covering key 
 # Problem Statement
 Design a autonomus mobile robot framework capable of navigates a structured environment along a specified trajectory using a robust control strategy. The robot's positional data is gathered from an array of sensors and processed using multilateration algorithms. This raw data is then filtered to ensure accuracy and reliability. The entire control strategy operates within a closed-loop control system, as illustrated in Figure 
 <p align="center">
-  <img src="https://github.com/fercho-0109/Mobile-robotics/assets/40362695/898f4cfd-08c3-46a4-8ad3-529e24647de3" alt="Texto alternativo" width="600">
+  <img src="https://github.com/fercho-0109/Mobile-robotics/assets/40362695/898f4cfd-08c3-46a4-8ad3-529e24647de3" alt="Texto alternativo" width="400">
 </p>
 
 ## Main Assumptions
