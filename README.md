@@ -60,7 +60,7 @@ For this task, a set of Beacons located as shown in the figure is assumed as sen
 </p>
 
  
-As we can see the sensors, because of the noise, do not represent reliable data of the position of the robot. Therefore, the application of a filter that improves the reliability of the data is necessary. To deal with this problem, the Extended Kalman Filter is taken into account since we are working with a non-linear model. Additionally, the system has noise in the model and in the measurements. 
+As we can see the sensors, because of the noise, do not represent reliable data of the position of the robot. Therefore, the application of a filter that improves the reliability of the data is necessary. To deal with this problem, the **Extended Kalman Filter** is taken into account since we are working with a non-linear model. Additionally, the system has noise in the model and in the measurements. 
 
  
 # Prerequisites
