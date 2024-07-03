@@ -6,7 +6,7 @@ For any questions or suggestions write to sofysan.1993@gmail.com
 # Sumary.
 This repository provides a detailed framework for mobile robotics, covering key topics such as path planning, controller implementation, mobile robot modeling, sensor integration, and the use of the Extended Kalman Filter (EKF) for accurate positioning in dynamic environments. The entire framework is designed and implemented within the MATLAB/Simulink environment, offering a unified platform for the exploration, analysis, and advancement of mobile robotics principles and applications. It serves as a valuable resource for researchers, engineers, and enthusiasts, offering in-depth insights into both fundamental and advanced techniques in mobile robotics.  
 <p align="center">
-  <img src="https://github.com/fercho-0109/Mobile-robotics/assets/40362695/23696346-064c-4809-91ac-6b2186e58d7a" alt="Texto alternativo" width="6000">
+  <img src="https://github.com/fercho-0109/Mobile-robotics/assets/40362695/23696346-064c-4809-91ac-6b2186e58d7a" alt="Texto alternativo" width="600">
 </p>
 
 # Problem Statement
