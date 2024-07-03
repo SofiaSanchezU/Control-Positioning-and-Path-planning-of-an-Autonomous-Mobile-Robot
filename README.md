@@ -30,15 +30,18 @@ Design a autonomus mobile robot framework capable of navigates a structured envi
 ##  PATH PLANNING 
 Define the environment  
 <p align="center">
-  <img src="https://github.com/SofiaSanchezU/Control-Positioning-and-Path-planning-of-an-Autonomous-Mobile-Robot/assets/155551302/2dafa97a-449d-43bc-a264-839e2839c0ce" alt="Texto alternativo" width="100">
+  <img src="https://github.com/SofiaSanchezU/Control-Positioning-and-Path-planning-of-an-Autonomous-Mobile-Robot/assets/155551302/2dafa97a-449d-43bc-a264-839e2839c0ce" alt="Texto alternativo" width="400">
 </p>
 
 The target and starting positions are selected from the environment so that the path planning can find the solution for all possible configurations.  
 The position of all obstacles is a-priory know  
 The obstacles are static   
-**The strategy used to develop the path planning is Voronoi Diagrams, visibility graphs, and potential field** The goal is to compute the shortest Collision-Free path.  
-**example**  
-![image](https://github.com/fercho-0109/Mobile-robotics/assets/40362695/bef6face-4e72-4604-9409-2a6ba333d4fd)
+**The strategy used to develop the path planning is visibility graphs** The goal is to compute the shortest Collision-Free path.  
+**example** 
+
+<p align="center">
+  <img src="Images/path.png" alt="Texto alternativo" width="400">
+</p>
 
 
 ## CONTROL
