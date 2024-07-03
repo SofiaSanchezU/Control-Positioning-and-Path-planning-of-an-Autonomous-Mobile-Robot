@@ -68,7 +68,7 @@ As we can see the sensors, because of the noise, do not represent reliable data 
 
 # File description
 The repository contains the main file
-1. **project-simulink**: This folder contains all the necessary programs and functions to run the model
+1. **code**: This folder contains all the necessary programs and functions to run the model
 
 
 
