@@ -11,15 +11,21 @@ This repository provides a detailed framework for mobile robotics, covering key 
 
 # Problem Statement
 Design a autonomus mobile robot framework capable of navigates a structured environment along a specified trajectory using a robust control strategy. The robot's positional data is gathered from an array of sensors and processed using multilateration algorithms. This raw data is then filtered to ensure accuracy and reliability. The entire control strategy operates within a closed-loop control system, as illustrated in Figure 
-![image](https://github.com/fercho-0109/Mobile-robotics/assets/40362695/898f4cfd-08c3-46a4-8ad3-529e24647de3)
+<p align="center">
+  <img src="https://github.com/fercho-0109/Mobile-robotics/assets/40362695/898f4cfd-08c3-46a4-8ad3-529e24647de3" alt="Texto alternativo" width="600">
+</p>
+
 ## Main Assumptions
 - The robot base movement is performed by wheels.  
 - Assume a differential drive robot model  
 - The robot moves in a structured environment (The position of the obstacles is knowing in advance)
-- The environment is equipped with beacons localisation sensors  
+- The environment is equipped with beacons location sensors  
 
 ## Differential Drive Model 
-![image](https://github.com/fercho-0109/Mobile-robotics/assets/40362695/e4ec6f7c-1631-4a29-ae84-eefdb1700f1a)
+<p align="center">
+  <img src="https://github.com/fercho-0109/Mobile-robotics/assets/40362695/e4ec6f7c-1631-4a29-ae84-eefdb1700f1a" alt="Texto alternativo" width="600">
+</p>
+
 
 ##  PATH PLANNING 
 Define the environment  
