@@ -30,7 +30,7 @@ Design a autonomus mobile robot framework capable of navigates a structured envi
 ##  PATH PLANNING 
 Define the environment  
 <p align="center">
-  <img src="https://github.com/SofiaSanchezU/Control-Positioning-and-Path-planning-of-an-Autonomous-Mobile-Robot/assets/155551302/2dafa97a-449d-43bc-a264-839e2839c0ce" alt="Texto alternativo" width="400">
+  <img src="https://github.com/SofiaSanchezU/Control-Positioning-and-Path-planning-of-an-Autonomous-Mobile-Robot/assets/155551302/2dafa97a-449d-43bc-a264-839e2839c0ce" alt="Texto alternativo" width="300">
 </p>
 
 The target and starting positions are selected from the environment so that the path planning can find the solution for all possible configurations.  
@@ -40,19 +40,26 @@ The obstacles are static
 **example** 
 
 <p align="center">
-  <img src="Images/path.png" alt="Texto alternativo" width="400">
+  <img src="Images/path.png" alt="Texto alternativo" width="300">
 </p>
 
 
 ## CONTROL
 The objective is to design proper control input for the robot so that it drives its pose to a given trajectory or target state. Due to the characteristics of path planning, the Input/Output linearization control law was selected to drive the robot on the path at the correct time. Because the input-output linearization control would drive point B on the target, the Posture Regulation  control is considered to drive the robot to the desired pose.  
 The idea is to remove the nonlinearities of the model by choosing a proper control law so that the closed-loop system results has a linear relationship with the inputs and outputs. Then, standard control techniques can be used to design the control law.  
-![image](https://github.com/fercho-0109/Mobile-robotics/assets/40362695/2aa65a5c-04be-4aaa-a429-f6b81f5d5da9)
+<p align="center">
+  <img src="https://github.com/fercho-0109/Mobile-robotics/assets/40362695/2aa65a5c-04be-4aaa-a429-f6b81f5d5da9" alt="Texto alternativo" width="400">
+</p>
 
 ##  POSITIONING
 The objective is to Locate (position and attitude) the robot in a given environment and in a given reference frame.  
 For this task, a set of Beacons located as shown in the figure is assumed as sensors. The position of each sensor is apriori known. For simplicity is supposed that the sensors can cover all the space of the environment. Also, it is assumed that the sensor measurements are noise-affected.
-![image](https://github.com/fercho-0109/Mobile-robotics/assets/40362695/f7e19f1d-bc56-4c1a-a998-b423591c5177)  
+
+<p align="center">
+  <img src="Images/positioning.png" alt="Texto alternativo" width="300">
+</p>
+
+ 
 As we can see the sensors, because of the noise, do not represent reliable data of the position of the robot. Therefore, the application of a filter that improves the reliability of the data is necessary. To deal with this problem, the Extended Kalman Filter is taken into account since we are working with a non-linear model. Additionally, the system has noise in the model and in the measurements. 
 
  
